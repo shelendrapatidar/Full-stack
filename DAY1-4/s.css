@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(199, 135, 39);
+}
+
+input {
+    background-color: chartreuse;
+}
+
+.don {
+    text-align: center;
+}
+div {
+    display: inline-block;
+}
+.b {
+    background-color: blueviolet;
+}
+.a {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.e {
+    width: 200px;
+}
+.s {
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    width: 300px;
+}
+.s:hover {
+    color: red;
+}
