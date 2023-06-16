@@ -1,0 +1,31 @@
+#first time
+git init       #for initilize reposertory
+
+#many time
+git status          # check status
+git add .           # add stage    
+
+#first time
+git config --global user.name "shelendrapatidar"
+git config --global user.email "shelendrapatidar8@gmail.com"
+git commit -m "your message"
+git commit -m "full stack web"
+
+#for direct publish
+git remote add origin "https://github.com/shelendrapatidar/web-dev-training.git"
+
+#daily command
+git add .
+git commit -m "daily comment"
+git push origin main
+
+
+
+#for clone
+git clone <repo path>
+
+#create new branch
+git chekout -b newBranch
+
+#create new branch from
+git checkout -b newBranch origin/main
